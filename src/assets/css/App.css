@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 h1 {
-  font-family: helvetica;
   font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+* {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
 }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+* {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
   font-weight: 200;
   text-align: center;
@@ -11,7 +16,10 @@ p {
   color: white;
 }
 
-* {
-  background-color: black;
-  font-family: 'Roboto', sans-serif;
+.clock {
+  color: white;
+}
+
+.search {
+  color: white;
 }

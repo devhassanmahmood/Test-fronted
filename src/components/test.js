@@ -4,7 +4,7 @@ class Test extends React.Component {
   render () {
     return (
       <div>
-        <img src="https://media.giphy.com/media/4ZYcQtaZvrsl2/giphy.gif" />
+        <img src="https://media.giphy.com/media/3og0IDMigqvDTko9ZS/giphy.gif" />
       </div>
     )
   }

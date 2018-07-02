@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Abel|Monoton|Nixie+One|Wire+One');
 
 * {
   background-color: black;
+  font-family: 'Wire One', sans-serif;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  height: 100vh;
+
+  background: #000;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: -2px;
+  color: #e8e8e8;
+  font-size: 30px;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -16,14 +34,68 @@ p {
   color: white;
 }
 
-.clock {
+#clock {
   color: white;
 }
 
-.weather {
+#time {
+font-size: 100px;
+}
+
+#date {
+float: left;
+margin-left: 20px;
+}
+
+#weather {
   color: white;
 }
 
-.search {
+#search {
   color: white;
+  width: 400px;
+  margin-top: 40px;
+  float: left;
+  margin-left: 20px;
+}
+
+.topLeft {
+  grid-row: 1;
+  grid-column: 1;
+  padding: 20px;
+  display: flex;
+}
+
+.topRight {
+  grid-row: 1;
+  grid-column: 2;
+  padding: 20px;
+  display: flex;
+  text-align: right;
+}
+
+.bottomLeft {
+  grid-row: 2;
+  grid-column: 1;
+  padding: 20px;
+  display: flex;
+  align-items: bottom;
+}
+
+.bottomRight {
+  grid-row: 2;
+  grid-column: 2;
+  padding: 20px;
+  display: flex;
+  align-items: bottom;
+  text-align: right;
+}
+
+.box {
+  width: 100%;
+}
+
+.bottom {
+  width: 100%;
+  align-self: flex-end;
 }

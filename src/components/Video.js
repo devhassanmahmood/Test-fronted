@@ -11,7 +11,7 @@ class Video extends Component {
 
         return (
             <li>
-                <iframe allowFullScreen="allowFullScreen" frameBorder="0" type="text/html" src={url}></iframe>
+                <iframe showinfo="0" allowFullScreen="allowFullScreen" frameBorder="0" type="text/html" src={url}></iframe>
             </li>
         );
     }
@@ -21,4 +21,4 @@ export default Video;
 
 
 // what is en vogue
-// 
+//

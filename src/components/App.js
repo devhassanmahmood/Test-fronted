@@ -14,8 +14,8 @@ class App extends Component {
   render() {
     return (
       <Switch>
-            <Route  path="/" component={Login}/>
             <Route path="/home/:id" component={Dashboard}/>
+            <Route  path="/" component={Login}/>
       </Switch>
     );
   }

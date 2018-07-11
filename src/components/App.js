@@ -2,7 +2,7 @@ import '../assets/css/App.css';
 import React, { Component } from 'react';
 import VideoContainer from './VideoContainer';
 import Clock from './Clock';
-import News from './News';
+// import News from './News';
 import Spotify from './Spotify';
 
 
@@ -15,7 +15,6 @@ class App extends Component {
     <Spotify />
   </div>
   <div className="region bottom container">
-      <News />
   </div>
   <div className="region right">
       <VideoContainer />

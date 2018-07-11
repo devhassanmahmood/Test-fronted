@@ -18,7 +18,3 @@ class Video extends Component {
 }
 
 export default Video;
-
-
-// what is en vogue
-//

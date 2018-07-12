@@ -20,13 +20,14 @@ class Login extends Component {
 
   handleSubmit(event){
     event.preventDefault();
-    fetch("http://localhost:3000/api/v1/sessions/",
+    const body = this.state
+    fetch("http://localhost:3000/api/v1/sessions",
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({ username: this.state.username, password: this.state.password })
+        body: JSON.stringify(body)
       }
     )
     .then(res => res.json())

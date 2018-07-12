@@ -12,6 +12,7 @@ class SearchBar extends Component {
         return (
             <div className="search">
                 <input
+                    placeholder="Search Youtube Videos"
                     value={this.state.term}
                     onChange={event => this.onInputChange(event.target.value)} />
             </div>

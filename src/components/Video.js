@@ -11,7 +11,7 @@ class Video extends Component {
 
         return (
             <li>
-                <iframe showinfo="0" allowFullScreen="allowFullScreen" frameBorder="0" type="text/html" src={url}></iframe>
+                <iframe className="video" showinfo="0" allowFullScreen="allowFullScreen" frameBorder="0" type="text/html" src={url}></iframe>
             </li>
         );
     }

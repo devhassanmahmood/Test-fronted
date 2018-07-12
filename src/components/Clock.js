@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import moment from 'moment'
 
 export default class Clock extends Component {
@@ -16,22 +16,18 @@ export default class Clock extends Component {
   }
 
   componentWillUnmount() {
-    if (this.timeNow) clearInterval(this.timeNow)
+    if (this.timeNow)
+      clearInterval(this.timeNow)
   }
 
   tickTock() {
-    this.setState({
-      time: moment().format('h:mm a'),
-      date: moment().format('dddd MMMM Do')
-    })
+    this.setState({time: moment().format('h : mm a'), date: moment().format('dddd MMMM Do')})
   }
 
-  render () {
-    return (
-      <div>
-        <h1>{this.state.time}</h1>
-        <h3>{this.state.date}</h3>
-      </div>
-    )
+  render() {
+    return (<div>
+      <h1 className="clock">{this.state.time}</h1>
+      <h3 className="date">{this.state.date}</h3>
+    </div>)
   }
 }

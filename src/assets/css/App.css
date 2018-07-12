@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Monoton|Nixie+One|Wire+One');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
 /* html {
   cursor: none;
   overflow: hidden;
@@ -18,7 +18,7 @@ body {
   background: #000;
   color: white;
   font-family: 'Wire One', sans-serif;
-  font-weight: 400;
+  font-weight: 10;
   font-size: 2em;
   line-height: 1.5em;
   -webkit-font-smoothing: antialiased;
@@ -29,19 +29,24 @@ input {
   -moz-border-radius: 50px;
   border-radius: 50px;
   text-align: center;
+  text-decoration-color: blue;
   width: 400px;
   height: 20px;
 }
 
-#time {
-  padding-bottom: 10px;
+.date {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.clock {
+  margin-top: 25px;
   font-size: 100px;
 }
 
-#date {
-  margin-left: 20px;
+.video {
+  margin-right: 50px;
 }
-
 
 .dimmed {
   color: #666;
@@ -109,6 +114,10 @@ input {
   text-align: left;
 }
 
+.news {
+  padding-bottom: 10px;
+}
+
 header {
   text-transform: uppercase;
   font-size: 15px;
@@ -169,6 +178,7 @@ sup {
 .region.right {
   right: 0;
   text-align: right;
+  padding-top: 10px;
 }
 
 .region.top {
@@ -197,7 +207,7 @@ sup {
 }
 
 .region.top.right, .region.top.left, .region.top.center {
-  top: 100%;
+  top: 95%;
 }
 
 .region.bottom {

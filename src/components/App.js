@@ -13,10 +13,13 @@ import { HashRouter as Router, Switch, Route, Redirect, Link } from "react-route
 class App extends Component {
   render() {
     return (
+      <Route>
       <Switch>
-            <Route path="/home/:id" component={Dashboard}/>
+            <Route path="/home" component={Dashboard}/>
+            <Route path="/register" component={Register}/>
             <Route  path="/" component={Login}/>
       </Switch>
+    </Route>
     );
   }
 }

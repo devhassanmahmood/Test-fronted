@@ -44,7 +44,7 @@ class Register extends Component {
     return (
       <div className="registration">
         <form onSubmit={this.handleSubmit}>
-          <input
+          <center><input
             type="text"
             name="username"
             placeholder="Username"
@@ -58,10 +58,12 @@ class Register extends Component {
             placeholder="Password"
             onChange={this.handleChange}
             value={this.state.password}
-          />
+          /></center>
           <center><button type="submit">Register</button></center>
         </form>
-        <center><p>Already a member? Login here</p></center>
+        <center>
+        <Link to="/">Need to sign up? Register here</Link>
+        </center>
       </div>
     )
   }

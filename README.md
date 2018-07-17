@@ -25,6 +25,9 @@ npm run dev
 
 If you would like to be able to run this with authentication, please download the backend for this project as well. 
 
+**Demo**
+
+https://www.dropbox.com/s/5nznwq6z2fvs2l1/smartMirrorFinal.mov?dl=0
 
 **Contribute**
 

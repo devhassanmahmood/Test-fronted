@@ -23,7 +23,7 @@ class News extends React.Component {
   }
 
   render() {
-    console.log(this.state.stories);
+
     return (
       <div><strong><p>Latest News</p></strong>{this.state.story} < /div>
     )

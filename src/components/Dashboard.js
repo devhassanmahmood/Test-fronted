@@ -22,7 +22,7 @@ class Dashboard extends React.Component {
       <div className="region top left">
         <News />
       </div>
-      <div region top right>
+      <div className= "region top right">
         <Weather />
       </div>
     </div>)

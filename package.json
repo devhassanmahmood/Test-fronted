@@ -38,6 +38,7 @@
     "dateformat": "^3.0.3",
     "jquery": "^3.3.1",
     "moment": "^2.22.2",
+    "react-forecast": "0.0.7",
     "react-geolocated": "^2.4.0",
     "react-router-dom": "^4.3.1",
     "react-spotify-player": "^1.0.4",

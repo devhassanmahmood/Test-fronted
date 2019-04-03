@@ -7,6 +7,8 @@ import Spotify from './Spotify';
 import Login from './Login';
 import Weather from './Weather';
 import Register from './Register';
+import Logos from './Logos';
+
 
 class Dashboard extends React.Component {
   render() {
@@ -14,8 +16,9 @@ class Dashboard extends React.Component {
       <div className="region left">
         <Clock/>
         <Spotify/>
+      <Logos />
       </div>
-      <div className="region bottom container"></div>
+      {/* <div className="region bottom container"></div> */}
       <div className="region right">
         <VideoContainer/>
       </div>

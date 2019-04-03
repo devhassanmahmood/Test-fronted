@@ -26,7 +26,6 @@ class Register extends Component {
       },
       body: JSON.stringify({username: this.state.username, password: this.state.password})
     }).then(res => res.json()).then(json => {
-      console.log("json", json)
       localStorage.setItem('token', json.token);
       localStorage.setItem('id', json.id);
       this.props.history.push("/home")
@@ -34,7 +33,6 @@ class Register extends Component {
   }
 
   render() {
-    console.log('render', this.state)
     return (<div className="registration">
       <form onSubmit={this.handleSubmit}>
         <center><input type="text" name="username" placeholder="Username" onChange={this.handleChange} value={this.state.username}/>
@@ -45,7 +43,7 @@ class Register extends Component {
         </center>
       </form>
       <center>
-        <Link to="/">Need to sign up? Register here</Link>
+        <Link to="/">Already registered? Login Here</Link>
       </center>
     </div>)
   }

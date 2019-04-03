@@ -32,13 +32,12 @@ class Login extends Component {
       localStorage.setItem('id', json.id);
       this.props.history.push("/home")
     } else {
-      alert("Not Today, buddy")
+      alert("Your credentials are incorrect, try again")
     }
     })
   }
 
   render() {
-    console.log(this.props);
     return (<div className="login">
       <form onSubmit={this.handleSubmit}>
         <center><input type="text" name="username" placeholder="Username" onChange={this.handleChange} value={this.state.username}/>

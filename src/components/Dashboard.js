@@ -16,17 +16,16 @@ class Dashboard extends React.Component {
       <div className="region left">
         <Clock/>
         <Spotify/>
-      <Logos />
       </div>
-      {/* <div className="region bottom container"></div> */}
       <div className="region right">
-        <VideoContainer/>
+        {/* <VideoContainer/> */}
+      <Logos />
       </div>
       <div className="region top left">
         <News />
       </div>
       <div className= "region top right">
-        <Weather />
+        {/* <Weather /> */}
       </div>
     </div>)
   }

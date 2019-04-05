@@ -15,6 +15,8 @@ if ( process.defaultApp || /[\\/]electron-prebuilt[\\/]/.test(process.execPath) 
   dev = true;
 }
 
+process.env.GOOGLE_API_KEY = 'AIzaSyDTB_AvI2NS1TaJ6CQ6HHu2oN-qA6CiOG0'
+
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({

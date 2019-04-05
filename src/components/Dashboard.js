@@ -25,7 +25,7 @@ class Dashboard extends React.Component {
         <News />
       </div>
       <div className= "region top right">
-        {/* <Weather /> */}
+        <Weather /> 
       </div>
     </div>)
   }
